@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # "DE patria a patria"
 
 Este proyecto es una página web responsiva creada a partir de un diseño de Figma. El objetivo es implementar el diseño utilizando HTML y CSS siguiendo la metodología BEM.
@@ -36,3 +37,6 @@ fonts.css
 ## Autor
 
 Proyecto desarrollado como parte del programa de desarrollo web.
+=======
+irais259.github.io
+>>>>>>> c8943df5d532005e539dd5e0f0e1bf149d2d0947
