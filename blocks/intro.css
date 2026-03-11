@@ -1,41 +1,40 @@
 .intro {
-  max-width: 830px;
-  width: 64.84375vw;
+  max-width: 984px;
+  width: calc(100% - 296px);
   margin: 88px auto 0;
   color: #ffffff;
 }
 
 .intro__title {
   max-width: 830px;
-  width: 64.83375vw;
   margin: 0;
   font-family: "inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
 }
+
 .intro__text {
-  max-width: 768px;
-  width: 60vw;
-  margin: 32px 0 0;
-  font-family: "inter", Arial, sans-serif;
+  max-width: 738px;
+  width: 100%;
+  margin: 40px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
+  text-align: left;
 }
 .intro__text-author {
   max-width: 732px;
-  width: 57.1875vw;
-  margin: 24px 0 0;
+  width: 100%;
+  margin: 10px 0 0;
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
 }
 .intro__text-description {
   max-width: 722px;
-  width: 56.71875vw;
+  width: 100%;
   margin: 32px 0 0;
-  font-family: "inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
@@ -44,7 +43,7 @@
   .intro {
     width: calc(100% - 48px);
     max-width: 720px;
-    margin: 148px auto 0;
+    margin: 90px auto 0;
   }
   .intro__title {
     max-width: 707px;
@@ -52,6 +51,7 @@
     font-size: 45px;
     line-height: 1.08;
   }
+
   .intro__text {
     margin: 50px auto 0;
     font-size: 24px;
@@ -79,18 +79,20 @@
     font-size: 32px;
     line-height: 1.09;
   }
+
   .intro__text {
     margin-top: 40px;
     font-size: 24px;
     line-height: 1.25;
   }
   .intro__text-author {
+    margin-top: 10px;
     text-align: right;
     font-size: 24px;
     line-height: 1.41;
   }
   .intro__text-description {
-    margin-top: 32px;
+    margin-top: 32px 0 0;
     font-size: 16px;
     line-height: 1.63;
   }

@@ -1,22 +1,18 @@
 .footer {
   min-width: 194px;
-  width: 15.15625vw;
   margin: 92px auto 0;
 }
 .footer__text {
-  max-width: 194px;
-  width: 15.15625vw;
   margin: 0;
   font-family: "inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  text-align: right;
+  text-align: center;
   color: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 194px;
     margin: 88px auto 0;
   }
   .footer__text {
@@ -26,7 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: 194px;
     margin: 64px auto 0;
   }
 }
