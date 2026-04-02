@@ -6,130 +6,11 @@
   gap: 80px;
 }
 
-.place {
-  display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-areas:
-    "title artist"
-    "image content"
-    "button content";
-  column-gap: 40px;
-  row-gap: 48px;
-}
-
-.place__title {
-  grid-area: title;
-  margin: 0;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  color: #fff;
-}
-
-.place__artist {
-  grid-area: artist;
-  align-self: end;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.place__artist-heading {
-  margin: 0;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1;
-  letter-spacing: 1.44px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-}
-.place__artist-name {
-  margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
-}
-
-.place__image {
-  grid-area: image;
-  display: block;
-  width: 100%;
-  max-width: 460px;
-  height: auto;
-}
-
-.place__website {
-  grid-area: button;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  align-self: start;
-  width: fit-content;
-  min-height: 48px;
-  padding: 13px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 18px;
-  color: #fff;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
-  transition: opacity o.3s ease;
-}
-
-.place__website:hover {
-  opacity: 0.8;
-}
-
-.place__content {
-  grid-area: content;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.place__paragraph {
-  margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 29px;
-  color: #fff;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768) {
   .places {
     max-width: 720px;
     margin: 88px auto 0;
     gap: 72px;
-  }
-  .place {
-    grid-template-columns: 340px 353px;
-    gap: 28px 48px;
-  }
-
-  .place__title {
-    font-size: 42;
-    line-height: 1.1;
-  }
-  .place__artist-name {
-    font-size: 16px;
-    line-height: 1.2;
-  }
-
-  .place__website {
-    font-size: 18px;
-    line-height: 18px;
-    padding: 13px 20px;
-  }
-  .place__content {
-    gap: 25px;
-  }
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
   }
 }
 
@@ -138,47 +19,5 @@
     max-width: 268px;
     margin: 62px auto 0;
     gap: 50px;
-  }
-
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "button"
-      "content";
-    row-gap: 30px;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-
-  .place__artist {
-    align-self: start;
-    gap: 8px;
-  }
-
-  .place__image {
-    max-width: 288px;
-    width: 100%;
-  }
-
-  .place__website {
-    width: 100%;
-    min-height: 48px;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  .place__content {
-    gap: 25px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
   }
 }
